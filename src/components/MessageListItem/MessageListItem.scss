@@ -1,0 +1,17 @@
+
+.message-list-item {
+    padding: 20rpx;
+    display: flex;
+    align-items: center;
+    .image {
+        width: 80rpx;
+        height: 80rpx;
+        background: gray;
+        border-radius: 10rpx;
+        margin-right: 1em;
+        flex-shrink: 0;
+    }
+    .right {
+        flex: 1;
+    }
+}
